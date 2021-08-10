@@ -6,7 +6,7 @@ This is the first sample project in the ng-book (The Complete Book On Angular 6)
 
 I used Boostrap here and my own CSS, instead of Semantic UI that's being used in the book. I did have access to the sample code as stated in the book. The confirmation email containing the serial code for the sample code never reached me.
 
-
+https://proj-01-reddit-card-clone.netlify.app/
 
 
 ==================================================
