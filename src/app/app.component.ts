@@ -27,5 +27,9 @@ export class AppComponent {
       new Article('GraphQL', 'https://graphql.org', 3),
       new Article('PHP', 'http://php.net', 8)
     ]
-  }  
+  }
+
+  sortedArticles(): Article[]{
+    return this.articles.sort((a: Article, b: Article) => b.votes - a.votes)
+  }
 }

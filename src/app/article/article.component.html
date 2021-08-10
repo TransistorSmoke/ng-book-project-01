@@ -7,7 +7,9 @@
   
   <div class="article-card"> 
     <div class="title">
-      <a  class="title-link" href="{{ article.link }}">{{ article.title }}</a>    
+      <a  class="title-link" href="{{ article.link }}">{{ article.title }}</a> 
+      <div class="domain">{{ article.domain() }}</div>
+      <link>
     </div>   
     <ul class="vote_ul">
       <li class="li_vote" >
