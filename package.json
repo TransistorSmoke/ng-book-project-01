@@ -39,5 +39,17 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "typescript": "~4.2.3"
-  }
+  },
+  "description": "Angular - let's go from zero to hero!",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TransistorSmoke/ng-book-project-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TransistorSmoke/ng-book-project-01/issues"
+  },
+  "homepage": "https://github.com/TransistorSmoke/ng-book-project-01#readme"
 }
