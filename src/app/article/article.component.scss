@@ -1,0 +1,74 @@
+.article {  
+  display: flex;   
+  align-items: stretch;
+  margin: 16px 0;
+
+  .article-vote {
+    background-color: #eee;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;    
+    width: 150px;
+    border-radius: 12px;;
+
+
+    .value  {      
+      display: block;
+      font-size: 40px;
+      font: bold;
+      text-align: center;
+    }
+
+    .label {      
+      display: block;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+
+  
+  .article-card {
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    margin-left: 8px;
+    padding-left: 8px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    
+
+    .title {
+      .title-link {
+        text-decoration: none;  
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(107, 107, 107);  
+      }      
+    }
+
+    .vote_ul {
+      .li_vote {
+        list-style-type: none;
+        display: inline;
+
+        text-transform: lowercase;
+
+        &:first-child {
+          margin-right: 12px;
+        }
+
+        a {
+          text-decoration: none;
+          color:rgb(65, 124, 184);
+          font-weight: bold;
+        }
+      }
+    }
+
+  }
+
+}
+

@@ -1,0 +1,24 @@
+<div class="p-3">
+  <form action="">
+    <h2>Add a Link</h2>
+    <div lass="form-group">
+      <label for="title">Title:</label>
+      <input class="form-control" type="text" name="title" #newtitle>
+    </div>
+  
+    <div class="form-group">
+      <label for="link">Link:</label>
+      <input class="form-control" type="text" name="link" #newlink>
+    </div>
+
+
+    <div class="d-flex justify-content-end mt-3">
+      <button type="button" class="btn btn-primary" (click)="addArticle(newtitle, newlink)">Submit Link</button>
+    </div>
+  </form>
+</div>
+
+<app-article *ngFor="let article of articles" [article]="article"></app-article>
+
+
+

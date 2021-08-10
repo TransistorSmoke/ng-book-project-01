@@ -1,0 +1,25 @@
+  
+<div class="article">
+  <div class="article-vote">
+    <div class="value">{{ article.votes }}</div>
+    <div class="label"> {{ article.votes !== 0 ? 'Points' : 'Point' }}</div>
+  </div>
+  
+  <div class="article-card"> 
+    <div class="title">
+      <a  class="title-link" href="{{ article.link }}">{{ article.title }}</a>    
+    </div>   
+    <ul class="vote_ul">
+      <li class="li_vote" >
+        <a href (click)="voteUp()">
+          <i class="bi bi-arrow-up"></i>Upvote
+        </a>
+      </li>
+      <li class="li_vote">
+        <a href (click)="voteDown()">
+          <i class="bi bi-arrow-down"></i>Downvote
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
