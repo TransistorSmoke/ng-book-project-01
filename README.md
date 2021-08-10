@@ -1,3 +1,16 @@
+# ng-book-project-01 - The Reddit Upvote/Downvote Clone
+
+Angular - let's go from zero to hero!
+
+This is the first sample project in the ng-book (The Complete Book On Angular 6). Here, we show show the capability to upvote and downvote an article and add new one to the article list through a form.
+
+I used Boostrap here and my own CSS, instead of Semantic UI that's being used in the book. I did have access to the sample code as stated in the book. The confirmation email containing the serial code for the sample code never reached me.
+
+
+
+
+==================================================
+
 # AngularReddit
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
